@@ -4,11 +4,10 @@
    * @name 'IndexPage'
    * @version 1.0.0
    */
-
 </script>
 
 <template>
-  lalala
+  <v-card> HELLO WORLD </v-card>
 </template>
 
 <route lang="yaml">

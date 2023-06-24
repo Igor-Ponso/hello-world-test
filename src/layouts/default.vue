@@ -9,14 +9,10 @@
    * default layout
    */
 
-  import { useThemeStore } from '@/store/themeStore';
-  import { storeToRefs } from 'pinia';
-  const themeStore = useThemeStore();
-  const { theme } = storeToRefs(themeStore);
 </script>
 
 <template>
-  <v-app :theme="theme">
+  <v-app>
     <v-main>
       <v-container :class="['fill-height']">
         <router-view />
